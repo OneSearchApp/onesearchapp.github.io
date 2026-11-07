@@ -2,78 +2,106 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>OneSearch: find anything in OneNote</title>
 <meta name="description" content="OneSearch: private, on-device search for OneNote, with AND, OR and NOT logic and text inside PDFs, Office files and images.">
-<link rel="icon" href="favicon.png"><link rel="stylesheet" href="style.css"></head><body>
+<link rel="icon" href="favicon.png"><link rel="stylesheet" href="style.css"></head><body class="home">
 <header><a class="brand" href=""><img src="icon.png" alt="">OneSearch</a>
 <nav><a href="privacy/">Privacy</a><a href="terms/">Terms</a><a href="support/">Support</a></nav></header>
-<main>
+<main class="wide">
 <div class="hero"><img src="icon.png" alt="OneSearch app icon"></div>
 <h1 style="text-align:center">OneSearch</h1>
 <p class="tag" style="text-align:center">Find anything in OneNote, including what's inside your files. Private, and on your iPhone or iPad.</p>
-<p>OneSearch adds fast search to your OneNote notebooks on iPhone and iPad. It reads your notes, and the PDFs, Office files and images attached to them, so the answer is easy to find even when OneNote can't search inside the file. Search with real logic, and keep everything on your device.</p>
+<p class="lead">OneSearch adds fast search to your OneNote notebooks on iPhone and iPad. It reads your notes, and the PDFs, Office files and images attached to them, so the answer is easy to find even when OneNote can't search inside the file.</p>
 <div class="btns">
-<a class="btn primary" href="#get">⬇️ Get the app</a>
-<a class="btn" href="support/">💬 Support</a>
-<a class="btn" href="privacy/">🔒 Privacy Policy</a>
-<a class="btn" href="terms/">📄 Terms of Use</a>
+<a class="btn primary" href="#get">&#11015;&#65039; Get the app</a>
+<a class="btn" href="support/">&#128172; Support</a>
+<a class="btn" href="privacy/">&#128274; Privacy Policy</a>
+<a class="btn" href="terms/">&#128196; Terms of Use</a>
 </div>
-</main>
 
-<section class="shots" aria-label="OneSearch screenshots">
-<div class="strip">
-<img src="img/OneSearch-preview-1-find-anything-web.png" alt="Find anything in OneNote: notes, PDFs, scans and photos in one search" width="645" height="1398">
-<img src="img/OneSearch-preview-2-search-with-logic-web.png" alt="Search with real logic: roof AND (leak OR damage) NOT 2019" width="645" height="1398">
-<img src="img/OneSearch-preview-3-logic-explained-web.png" alt="Say exactly what you mean: AND, OR, NOT, brackets and quotes explained" width="645" height="1398">
-<img src="img/OneSearch-preview-4-inside-files-web.png" alt="Search inside your files, down to the page" width="645" height="1398">
-<img src="img/OneSearch-preview-5-typos-and-meaning-web.png" alt="Typos forgiven, ideas found" width="645" height="1398">
-<img src="img/OneSearch-preview-6-private-on-device-web.png" alt="Private, on your iPhone: no server, ads or analytics" width="645" height="1398">
-<img src="img/OneSearch-preview-7-works-offline-web.png" alt="Instant, even offline: a private copy on your iPhone" width="645" height="1398">
-</div>
-<p class="fine">Screenshots show sample notebooks.</p>
-</section>
-
-<main>
-<h2>What makes OneSearch different</h2>
+<h2 class="section">What makes OneSearch different</h2>
+<section class="feature" id="f1">
+<img class="shot" src="img/OneSearch-preview-1-find-anything-web.png" alt="Find anything in OneNote: notes, PDFs, scans and photos in one search" width="645" height="1398" loading="lazy">
+<div class="copy">
+<h2>Everything in one search</h2>
 <ul class="feat">
-<li><strong>Searches inside files.</strong> PDFs, Office files and images attached to your notes become searchable, down to the page.</li>
-<li><strong>Reads scans and photos.</strong> Text recognition runs on your iPhone or iPad.</li>
-<li><strong>Filters that fit.</strong> Narrow by type, notebook, section and date.</li>
+<li><strong>Notes, files and scans together.</strong> PDFs, Office files and images attached to your notes become searchable.</li>
 <li><strong>Shows where it is.</strong> Results name the notebook, section and note, and open the file or page.</li>
-<li><strong>Related notes and files.</strong> OneSearch links items that belong together.</li>
+<li><strong>Filters that fit.</strong> Narrow by type, notebook, section and date.</li>
 </ul>
-
-<h2>Made for iPhone and iPad</h2>
-<p>OneSearch runs on both. On iPad the layout adapts to the larger screen, in portrait and landscape, so search, results and PDFs have room to breathe. Your index stays on each device, and you sign in once on each.</p>
-<ul class="feat"><li><strong>iPhone:</strong> fast search wherever you are.</li><li><strong>iPad:</strong> a roomier layout for portrait and landscape, with results and files easy to read.</li></ul>
-<!-- iPad screenshots: add <section class="shots ipad"> with images from img/ipad-*.png here -->
-
+</div>
+</section>
+<section class="feature flip" id="f2">
+<img class="shot" src="img/OneSearch-preview-2-search-with-logic-web.png" alt="Search with real logic: roof AND (leak OR damage) NOT 2019" width="645" height="1398" loading="lazy">
+<div class="copy">
 <h2>Search with real logic</h2>
 <p>Go beyond plain keywords. Combine words, leave some out, group them, and match exact phrases. The logic buttons sit right under the search box.</p>
+<p>Prefer plain words? Just type what you mean.</p>
+</div>
+</section>
+<section class="feature" id="f3">
+<img class="shot" src="img/OneSearch-preview-3-logic-explained-web.png" alt="Say exactly what you mean: AND, OR, NOT, brackets and quotes explained" width="645" height="1398" loading="lazy">
+<div class="copy">
+<h2>Say exactly what you mean</h2>
 <table class="logic">
 <tr><td><code>roof AND warranty</code></td><td>Both words must be there</td></tr>
 <tr><td><code>roof OR gutter</code></td><td>Either word will do</td></tr>
-<tr><td><code>roof NOT 2019</code></td><td>Leave out anything with that word</td></tr>
+<tr><td><code>roof NOT 2019</code></td><td>Leave out that word</td></tr>
 <tr><td><code>(roof OR gutter) AND quote</code></td><td>Brackets group the logic</td></tr>
-<tr><td><code>"water damage"</code></td><td>Words together, in that order</td></tr>
+<tr><td><code>"water damage"</code></td><td>Words together, in order</td></tr>
 </table>
-<p class="small">Write AND, OR and NOT in capitals. In lowercase they are ordinary words. Prefer plain words? Just type what you mean; OneSearch also forgives typos and finds the same idea in different words.</p>
-
+<p class="small">Write AND, OR and NOT in capitals. In lowercase they are ordinary words.</p>
+</div>
+</section>
+<section class="feature flip" id="f4">
+<img class="shot" src="img/OneSearch-preview-4-inside-files-web.png" alt="Search inside your files, down to the page" width="645" height="1398" loading="lazy">
+<div class="copy">
+<h2>Inside your files, down to the page</h2>
+<ul class="feat">
+<li><strong>Searches inside files.</strong> PDFs, Office files and images, down to the page.</li>
+<li><strong>Reads scans and photos.</strong> Text recognition runs on your device.</li>
+<li><strong>Open and see the match.</strong> Jump straight to the page with the words highlighted.</li>
+</ul>
+</div>
+</section>
+<section class="feature" id="f5">
+<img class="shot" src="img/OneSearch-preview-5-typos-and-meaning-web.png" alt="Typos forgiven, ideas found" width="645" height="1398" loading="lazy">
+<div class="copy">
+<h2>Typos forgiven, ideas found</h2>
+<p>OneSearch forgives typos and finds the same idea in different words. Related notes and files are linked, so items that belong together show up together.</p>
+</div>
+</section>
+<section class="feature flip" id="f6">
+<img class="shot" src="img/OneSearch-preview-6-private-on-device-web.png" alt="Private, on your iPhone: no server, ads or analytics" width="645" height="1398" loading="lazy">
+<div class="copy">
 <h2>Private. On your iPhone or iPad.</h2>
 <ul class="feat">
-<li><strong>Searched on your iPhone or iPad.</strong> Your notes are indexed and searched on the device, even offline.</li>
 <li><strong>No server, no ads, no analytics.</strong> Nothing is sent to us or to anyone else. OneSearch only talks to Microsoft to sign you in and read your notes.</li>
 <li><strong>Read-only.</strong> OneSearch never changes or deletes anything in OneNote.</li>
-<li><strong>On-device text recognition and AI.</strong> Scans, photos and smart search run on your iPhone or iPad.</li>
+<li><strong>On-device text recognition and AI.</strong> Scans, photos and smart search run on your device.</li>
 <li><strong>You're in control.</strong> Choose which notebooks to sync. Sign out and the local index is removed.</li>
 </ul>
+</div>
+</section>
+<section class="feature" id="f7">
+<img class="shot" src="img/OneSearch-preview-7-works-offline-web.png" alt="Instant, even offline: a private copy on your iPhone" width="645" height="1398" loading="lazy">
+<div class="copy">
+<h2>Instant, even offline</h2>
+<p>Your notes are indexed and searched on the device, so results appear instantly, even without a connection. Sync keeps your private copy up to date in the background.</p>
+</div>
+</section>
+<h2 class="section">Made for iPhone and iPad</h2>
+<p>OneSearch runs on both. On iPad the layout adapts to the larger screen, in portrait and landscape, so search, results and PDFs have room to breathe. Your index stays on each device, and you sign in once on each.</p>
+<ul class="feat"><li><strong>iPhone:</strong> fast search wherever you are.</li><li><strong>iPad:</strong> a roomier layout for portrait and landscape, with results and files easy to read.</li></ul>
+<!-- iPad screenshots: add <section class="feature"> blocks with images from img/ipad-*.png here -->
 
-<h2>How it works</h2>
+<h2 class="section">How it works</h2>
 <p>Sign in with Microsoft and choose your notebooks. Notes are searchable within minutes. Files and scans follow over hours or days for large notebooks, and each one becomes searchable as soon as it is read. Syncing continues in the background.</p>
-<h2 id="get">Get OneSearch</h2>
+<h2 class="section" id="get">Get OneSearch</h2>
 <div class="note">Coming soon to the App Store. <!-- Replace this note with the App Store badge link when the app is live: <a href="https://apps.apple.com/app/id[APP ID]">Download on the App Store</a> --></div>
-<h2>OneSearch 1.0</h2>
+<h2 class="section">OneSearch 1.0</h2>
 <p>The first release, for iPhone and iPad. Search your notes and the files inside them, with real logic, privately on your device.</p>
-<h2>Requirements</h2>
+<h2 class="section">Requirements</h2>
 <ul class="feat"><li>iPhone (iOS 27 or later) or iPad (iPadOS 27 or later)</li><li>A Microsoft account with OneNote notebooks</li></ul>
+<p class="fine">Screenshots show sample notebooks.</p>
 </main>
 <footer>
 <p>&copy; 2026 OneSearch. OneSearch is an independent app and is not affiliated with, endorsed by, or sponsored by Microsoft. Microsoft and OneNote are trademarks of the Microsoft group of companies.</p>
