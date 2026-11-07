@@ -21,3 +21,12 @@ ul.feat li{margin:.4em 0}
 .note{background:var(--surf);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;margin:20px 0}
 footer{color:var(--mut);font-size:.85rem;border-top:1px solid var(--bd);margin-top:48px;padding-top:16px;padding-bottom:40px}
 footer a{color:var(--mut)}
+.shots{margin:28px 0 0}
+.strip{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px max(20px,calc((100vw - 720px)/2)) 16px;-webkit-overflow-scrolling:touch}
+.strip img{flex:none;width:260px;height:auto;border-radius:26px;scroll-snap-align:center;box-shadow:0 6px 24px rgba(60,0,90,.25)}
+.fine{text-align:center;color:var(--mut);font-size:.8rem;margin:0}
+table.logic{width:100%;border-collapse:collapse;margin:14px 0}
+table.logic td{padding:10px 8px;border-bottom:1px solid var(--bd);vertical-align:top}
+table.logic code{font:600 .9rem ui-monospace,Menlo,monospace;background:var(--surf);color:var(--p);border-radius:7px;padding:3px 8px;white-space:nowrap}
+.small{color:var(--mut);font-size:.9rem}
+@media(max-width:560px){table.logic td{display:block;border:0;padding:4px 0}table.logic tr{display:block;padding:8px 0;border-bottom:1px solid var(--bd)}}
