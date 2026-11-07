@@ -49,6 +49,9 @@ body.home h2{font-size:1.75rem;margin:2em 0 .5em;text-align:left}
 .sec ul.feat{padding-left:1.3em;margin:.6em 0}
 .sec ul.feat li{margin:.6em 0}
 .sec code{font:600 .9rem ui-monospace,Menlo,monospace;background:var(--surf);color:var(--p);border-radius:7px;padding:2px 7px;white-space:nowrap}
+ul.pain{list-style:none;padding:0;margin:.6em 0}
+ul.pain li{background:var(--surf);border:1px solid var(--bd);border-radius:14px;padding:12px 16px;margin:10px 0}
+ul.pain li strong{display:block;color:var(--p);font-size:1.05rem;margin-bottom:2px}
 hr.div{border:0;border-top:1px solid var(--bd);margin:2.4em 0 0}
 figure.ipad{margin:26px 0;text-align:center}
 figure.ipad img{width:100%;height:auto;filter:drop-shadow(0 10px 24px rgba(60,0,90,.3))}
