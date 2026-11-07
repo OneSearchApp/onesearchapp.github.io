@@ -55,6 +55,10 @@ table.fix th{text-align:left;padding:10px 14px;background:var(--surf);font-size:
 table.fix td{padding:12px 14px;border-top:1px solid var(--bd);vertical-align:top;width:50%}
 table.fix td+td{font-weight:600;color:var(--p)}
 @media(max-width:560px){table.fix td,table.fix th{padding:10px}}
+.faq details{border:1px solid var(--bd);border-radius:14px;background:var(--surf);margin:10px 0;padding:0 16px}
+.faq summary{cursor:pointer;font-weight:600;padding:14px 0;list-style-position:outside}
+.faq details[open] summary{color:var(--p)}
+.faq details p{margin:0 0 14px}
 hr.div{border:0;border-top:1px solid var(--bd);margin:2.4em 0 0}
 figure.ipad{margin:26px 0;text-align:center}
 figure.ipad img{width:100%;height:auto;filter:drop-shadow(0 10px 24px rgba(60,0,90,.3))}
